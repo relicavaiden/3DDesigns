@@ -27,7 +27,8 @@ const Navbar = () => {
                 </div>
                 <div className='hidden md:block'>
                     <div className='ml-4 flex items-center space-x-4'>
-                        <a href='/' className='text-white block hover:bg-white hover:text-black rounded-lg p-2 '>
+                        {/* // The home button will carry the color scheme that was requested for the page gold, navy, black */}
+                        <a href='/' className='text-white block hover:bg-black hover:text-yellow-400 rounded-lg p-2 '>
                             Home
                         </a>
                         <a href='/' className='text-white block hover:bg-white hover:text-black rounded-lg p-2 '>

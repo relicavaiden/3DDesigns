@@ -5,7 +5,8 @@ import { RxDotFilled } from 'react-icons/rx';
 import Image from 'next/image';
 
 
-
+// The carousel should be all 360 videos.
+// Images will need to be snipped to be used
 export default function Carousel() {
 
   const caro = [
@@ -32,7 +33,10 @@ export default function Carousel() {
     },
     {
       url: 'WhirlpoolStarmie0121_35/eightStarmieLeftSide.jpg'
-    }
+    },
+    // {
+    //   url: 'WhirlpoolStarmie0121_35/Starmie_Display.mp4'
+    // }
   ]
 
   const [currentImage, setCurrentImage] = useState(0)
@@ -54,9 +58,9 @@ export default function Carousel() {
   };
 
   return (
-    <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group'>
+    <div className='max-w-[900px] h-[600px] w-full m-auto py-16 px-4 relative group'>
       <div style={{backgroundImage: `url(${caro[currentImage].url})`}} 
-      className='w-full h-full rounded-2xl bg-center bg-cover duration-500'> 
+      className='w-full h-full rounded-2xl bg-center bg-cover ease-in-out  duration-900'> 
       </div>
       {/* Left Arrow */}
       <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-yellow-400 cursor-pointer'>
