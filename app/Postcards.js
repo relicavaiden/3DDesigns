@@ -13,7 +13,7 @@ const Postcards = () => {
             <div className='group h-96 w-96 [perspective:1000px]'>
                 <div className='relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]'>
                     <div className='absolute inset-0'>
-                        <Image className='h-full w-full rounded-xl shadow-lg shadow-black/40 [backface-visibility:hidden]' src={Gastly} />
+                        <Image className='h-full w-full rounded-xl shadow-lg shadow-black/40 [backface-visibility:hidden]' src={Gastly} alt="Pokemon" />
                         <h1 className='text-3xl font-bold'>Ghastly 2 1/2"</h1>
                             <p>Short description one</p>
                     </div>
