@@ -16,3 +16,26 @@
     50%  {background-color: black;}
     
 }
+
+mux-player {
+    --captions-button: none;
+    --time-range: none;
+    --time-display: none;
+    --duration-display: none;
+    --seek-forward-button: none;
+    --seek-backward-button: none;
+    --mute-button: none;
+    --fullscreen-button: none;
+    --cast-button: none;
+    --airplay-button: none;
+    --volume-range: none;
+    --time-range: none;
+    --time-display: none;
+    --duration-display: none;
+    --rendition-selectmenu: none;
+    /* max-width: 100%; */
+    width: 135%;
+    /* max-height: 100%; */
+    height: 28rem;
+    border-radius: 25px;
+}
