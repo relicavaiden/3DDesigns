@@ -1,5 +1,7 @@
+'use client'
 import React from 'react';
 import Image from 'next/image';
+import videotest from './Videotest';
 
 import Gastly from '../public/Media/GastlySize.jpg';
 //import GastlyVid from '../public/Media/GastlyVideo.mp4';
@@ -17,15 +19,16 @@ const Postcards = () => {
                     </div>
                     <div className='absolute inset-0 h-full w-full rounded-xl bg-black/40 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]'>
                         <div className='flex min-h-full flex-col items-center justify-center'>
-                            <Image className='h-full w-full' src={ Starmie } />
-                            {/* <video width="320" height="240" controls preload='none' >
+                            {/* <Image className='h-full w-full' src={ Starmie } /> */}
+                            <video width="24rem" height="24rem" controls preload='none'>
                                 <source src='../public/Media/GastlyVideo.mp4' type='video/mp4' />
                                 Your browser does not support the video
-                            </video> */}
+                            </video>
                         </div>
                     </div>
                 </div>
             </div>
+            <videotest />
     </div>
   )
 }
