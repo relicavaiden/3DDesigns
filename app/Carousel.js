@@ -58,7 +58,7 @@ export default function Carousel() {
   };
 
   return (
-    <div className='max-w-[900px] h-[600px] w-full m-auto py-16 px-4 relative group'>
+    <div className='max-w-[900px] h-[850px] w-full m-auto py-16 px-4 relative group'>
       <div style={{backgroundImage: `url(${caro[currentImage].url})`}} 
       className='w-full h-full rounded-2xl bg-center bg-cover ease-in-out  duration-900'> 
       </div>

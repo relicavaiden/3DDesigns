@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import Header from "./Header";
 import Carousel from "./Carousel";
 import Postcards from "./Postcards";
-import Videotest from "./Videotest";
+import Footer from "@/Footer";
 
 
 export default function Home() {
@@ -11,9 +11,9 @@ export default function Home() {
     <Navbar>
     </Navbar>
     <Header/>
-    <Carousel>
-    </Carousel>
+    <Carousel/>
     <Postcards />
+    <Footer />
     </main>
   );
 }
