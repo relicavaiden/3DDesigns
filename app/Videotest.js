@@ -6,7 +6,7 @@ export default function Videotest() {
     return (
         <MuxPlayer
             streamType="on-demand"
-            playbackId="fLNs7TYLUXG22jd5yMH6l1IDU1A00ZGn1BPHxO7RNTJg"
+            playbackId="02RL1ouWSt1pz8GLVmy3OXGC3dlbTL6ZyBjp3BbMlziA"
             metadataVideoTitle="Placeholder (optional)"
             metadataViewerUserId="Placeholder (optional)"
             primaryColor="gold"
